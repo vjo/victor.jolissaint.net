@@ -1,0 +1,174 @@
+/* Foundation v2.2 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+
+/* -----------------------------------------
+   Custumisation
+----------------------------------------- */
+
+/* Fonts */
+@font-face {
+  font-family: 'Aclonica';
+  src: url('fonts/Aclonica.ttf');
+  src: local('fonts/Aclonica.ttf'),
+  url('fonts/Aclonica.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('fonts/Pacifico.ttf');
+  src: local('fonts/Pacifico.ttf'),
+  url('fonts/Pacifico.ttf') format('truetype');
+}
+
+/* From Twitter bootstrap */
+hr.soften {
+    background-image: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent);
+    border: 0 none;
+    height: 1rem;
+    margin: 1rem 0;
+}
+
+/* Top */
+@media (min-width: 1100px) {
+  .top-shadow {
+    background: url("../images/bg/darkdenim3.png") repeat scroll center center ;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.2) inset;
+    padding: 22px;/* pb */
+
+  }
+}
+
+
+/* Custom BG */
+.container {
+    background: url("../images/bg/darkdenim3.png") repeat scroll center center ;
+}
+
+.header {
+	padding-top: 6.5rem;
+}
+
+.button.full-width {
+    font-size: 20px;
+}
+
+/* Title */
+.title {
+	text-transform: uppercase;
+  text-shadow: 0px 1px 1px #4d4d4d;
+  color: #181818;
+  opacity: 0.7;
+  font: 6rem 'Aclonica', sans-serif;
+  margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h4 {
+	font: 2.8rem 'Pacifico', cursive;
+  color: inherit;
+}
+
+p {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.6rem;
+  line-height: 1.25;
+  margin: 0 0 18px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
+
+.has-tip {
+    color: #CBCBCB;
+    font-weight: normal;
+}
+
+.has-tip:hover {
+    border-bottom: dotted 1px #00A1B7;
+    color: #00A1B7;
+}
+
+.no-border-bottom, .no-border-bottom:hover {
+   border-bottom: none;   
+}
+
+/* Panel Custom */
+div.panelCust {
+	padding: 20px 20px 2px 20px;
+	margin: 0 0 20px 0;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+	background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 6px 6px 6px 6px;
+}
+
+div.panelCust img {
+    float: left;
+    margin: 1rem 1rem 1rem 0;
+}
+
+/* Quote */
+#quote h2 {
+  font: 5rem 'Pacifico', cursive;
+  opacity: 1;
+  line-height: 5.8rem;
+  text-shadow: 0px 1px 4px #000;
+}
+
+/* Pop Up */
+.reveal-modal-bg { z-index: 200; /* because zocial use z-index: 100; */ }
+.reveal-modal { z-index: 201; /* because zocial use z-index: 100; */ }
+
+/* Colors */
+.coral { color: #FF7F50; }
+.green { color : #8CB737; }
+.blue { color: #00A1B7; }
+.white { color: #FFFFFF; }
+
+/* Custom Links */
+a { color: #00A1B7; text-decoration: none; line-height: inherit; }
+a:hover { color: #00A1B7; border-bottom: dotted 1px #00A1B7; }
+a:focus { color: #FF7F50; outline: none; }
+p a, p a:visited { line-height: inherit; }
+
+/* Zocial buttons */
+.zocial.icon a { margin-right: 20px; }
+.zocial { font-size: 24px; }
+
+/* Icons */
+.icons {
+  margin-right: 18px;
+  display: inline;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter:alpha(opacity=8);
+}
+
+/* Body */
+body { 
+  color: #CBCBCB; 
+}
+.bodyrow { padding-top: 18px; }
+
+/* About */
+#about {
+  color: #121212;
+}
+
+#about li {
+  list-style-position: inside;
+  list-style-type: square;
+  margin-bottom: 2px;
+  padding-left: 25px;
+  font-size: 1.6rem;
+  line-height: 1.25;  
+}
