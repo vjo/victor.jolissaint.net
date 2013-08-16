@@ -6,7 +6,7 @@
     From: Paris, France
 
 /* SITE */
-    Last update: 2013/07/26
+    Last update: 2013/08/16
     Language: English
     Doctype: HTML5
     IDE: vim
